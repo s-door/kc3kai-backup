@@ -5,7 +5,7 @@ This script was created referring to this issue "https://github.com/KC3Kai/KC3Ka
 
 # Install
 ```bash
-git clone
+git clone https://github.com/s-door/kc3kai-backup.git
 chmod a+x kc3kai-backup/backup.bash
 (crontab -l; echo "8 * * * * ~/kc3kai-backup/backup.bash") | crontab -
 ```
